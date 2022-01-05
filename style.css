@@ -14,6 +14,9 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
+.col-sm-12 p{
+    font-size: 25px;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -445,8 +448,8 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
-    font-size: 20px;
-    font-weight: 300`;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .mg-lg {
@@ -695,7 +698,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 25px;
     font-family: "Open Sans";
 }
 
@@ -709,8 +712,18 @@ p {
 }
 
 .social {
+    display: flex;
     max-width: 400px;
     margin: auto auto auto auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-sm-12 p{
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
 }
 
 h2 {
